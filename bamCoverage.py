@@ -1,6 +1,6 @@
 import string,sys,os,glob
 
-fp=glob.glob('7_p300_Control.bam')
+fp=glob.glob('samplel.bam')
 
 co=0
 for fname in fp:
