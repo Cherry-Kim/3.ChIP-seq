@@ -2,7 +2,7 @@ import os,glob,string,sys
 
 REF='/home/program/homer/data/genomes/mm10/'
 GTF='mm10.refGene.gtf'
-'''
+
 co=0
 fp=glob.glob('*.gz')
 for fname in fp:
@@ -38,7 +38,7 @@ for fname in fp:
 	a=fname.split('.')
 	sample=a[0]
 	os.system('perl /home/program/homer/bin/annotatePeaks.pl '+fname+' '+REF+' '+' -gtf '+GTF+' > '+sample+'_annotations.txt')
-'''
+
 
 fp=glob.glob('2_GCN5_BLM.bam')
 for fname in fp:
