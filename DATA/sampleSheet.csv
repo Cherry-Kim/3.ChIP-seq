@@ -1,5 +1,5 @@
 SampleID,Tissue,Factor,Condition,Treatment,Replicate,bamReads,ControlID,bamControl,Peaks,PeakCaller
-8_p300_BLM,mouse,p300,p300,p300,1,/home/hykim/ChIP-seq/8_p300_BLM.bam,,,/home/hykim/ChIP-seq/Peak_calling/8_p300_BLM_peaks.narrowPeak,bed
-7_p300_Control,mouse,p300,p300,p300,2,/home/hykim/ChIP-seq/7_p300_Control.bam,,,/home/hykim/ChIP-seq/Peak_calling/7_p300_Control_peaks.narrowPeak,bed
-2_GCN5_BLM,mouse,GCN5,GCN5,GCN5,1,/home/hykim/ChIP-seq/2_GCN5_BLM.bam,,,/home/hykim/ChIP-seq/Peak_calling/2_GCN5_BLM_peaks.narrowPeak,bed
-1_GCN5_Control,mouse,GCN5,GCN5,GCN5,2,/home/hykim/ChIP-seq/1_GCN5_Control.bam,,,/home/hykim/ChIP-seq/Peak_calling/1_GCN5_Control_peaks.narrowPeak,bed
+sample1_control,mouse,p300,p300,p300,1,/ChIP-seq/sample1_control.bam,,,/ChIP-seq/Peak_calling/sample1_control_peaks.narrowPeak,bed
+sample2_control,mouse,p300,p300,p300,2,/ChIP-seq/sample2_control.bam,,,/ChIP-seq/Peak_calling/sample2_control_peaks.narrowPeak,bed
+sample3_case,mouse,GCN5,GCN5,GCN5,1,/ChIP-seq/sample3_case.bam,,,/ChIP-seq/Peak_calling/sample3_case_peaks.narrowPeak,bed
+sample4_case,mouse,GCN5,GCN5,GCN5,2,/ChIP-seq/sample4_case.bam,,,/ChIP-seq/Peak_calling/sample4_case_peaks.narrowPeak,bed
