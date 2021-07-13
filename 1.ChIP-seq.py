@@ -19,7 +19,8 @@ def STEP0_ALIGN(REF,sample):
 	os.system('/home/hykim/program/deepTools/bin/bamCoverage -b '+sample+'.sorted.bam -o '+sample+'.bw')
 
 def STEP1_PEAK_CALLING(sample): 
-	os.system('/home/hykim/program/MACS2-2.0.10.20130731/bin/macs2 callpeak -t '+sample+'.bam -f BAM --name '+sample+' -g mm -B -q 0.05') 
+	os.system('/home/hykim/program/MACS2-2.0.10.20130731/bin/macs2 callpeak -t '+sample+'.bam -f BAM --name '+sample+' -g mm -B -q 0.05') # -g hs
+	# output: sample_peaks.xls
 
 def STEP2_PEAK_ANNOTATION(sample,REF,GTF): 
 	os.system('grep -v "#" '+sample+'_peaks.xls | sed -n "3, \$p" | awk -F "\t" \'{print $10 "\t" $1 "\t" $2 "\t" $3 "\t" "+"}\' > '+sample+'.input.bed') 
