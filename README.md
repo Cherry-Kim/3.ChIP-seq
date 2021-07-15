@@ -10,5 +10,10 @@ cd MACS2-2.2.6/
 pip install numpy
 
 python setup.py install
- 
+
+# install curl and xml on linux
+```
+$ 
+$ 
+```
  
