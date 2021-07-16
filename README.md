@@ -13,7 +13,7 @@ python setup.py install
 
 # install curl and xml on linux
 ```
-$ 
+$ sudo apt-get install -y librsvg2-dev
 $ 
 ```
  
