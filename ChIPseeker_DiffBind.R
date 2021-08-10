@@ -5,6 +5,7 @@ ChIPseeker <- function(
 	sp = "mouse"
 	) {
 #	BiocManager::install(c("ChIPseeker","clusterProfiler","ggupset","TxDb.Mmusculus.UCSC.mm10.knownGene","org.Mm.eg.db","ReactomePA"))
+	#library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 	library(ChIPseeker)
 	library(clusterProfiler)
 	library(ggupset)
